@@ -7,7 +7,6 @@ import classes from "../../styles/SignIn.module.css";
 
 import AuthButton from "../../components/AuthButton/AuthButton";
 import { faGithub, faGoogle, faYandex } from "@fortawesome/free-brands-svg-icons";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
 
 export default function SignIn({ providers }) {
 
@@ -27,18 +26,13 @@ export default function SignIn({ providers }) {
                     icon={faYandex}
                 />
                 <AuthButton
-                    provider={providers.mailru}
-                    background="#2196F3"
-                    icon={faAt}
-                />
-                <AuthButton
                     provider={providers.github}
                     background="#121212"
                     icon={faGithub}
                 />
                 <AuthButton
                     provider={providers.google}
-                    background="#4CAF50"
+                    background="#2196F3"
                     icon={faGoogle}
                 />
             </div>

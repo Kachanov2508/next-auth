@@ -38,7 +38,7 @@ export default function SignIn({ providers }) {
                 />
                 <AuthButton
                     provider={providers.google}
-                    background="#4CAF50"
+                    background="#2196F3"
                     icon={faGoogle}
                 />
             </div>
